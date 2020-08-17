@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name ="Entaxy Test Suite">
+    <test name ="Dashboard Login Suit">
+
+        <classes>
+            <!--Run -TestCases in -dashboardLogin Package-->
+            <class name ="entaxy.website.framework.testcases.Login"/>
+            <class name ="entaxy.website.framework.testcases.Dashboard"/>
+            <class name ="entaxy.website.framework.testcases.NewAccount"/>
+
+        </classes>
+    </test>
+</suite>
